@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar';
 import './App.css';
+import { AiOutlineMenu } from 'react-icons/ai';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // Navbar Section
+    <div>
+      <div className='Navbar'>
+      <div>
+      <AiOutlineMenu />
+      </div>
+    <h1>
+      io<span>Topia</span>
+    </h1>
+    <div>
+      <p>Home</p> <p>Affiliate</p>
+    </div>
+
+      </div>
+      
     </div>
   );
 }
