@@ -8,6 +8,7 @@ import { BiSolidHelpCircle } from 'react-icons/bi';
 import { IoMdContact } from 'react-icons/io';
 
 
+
 const Navbar = () => {
 
   const [nav, setNav] = useState(false)
@@ -81,6 +82,7 @@ size={25} className='absolute right-4 top-4 cursor-pointer duration-300'/>
   </ul>
 </nav>
     </div>
+    
     </div>
     
   )
