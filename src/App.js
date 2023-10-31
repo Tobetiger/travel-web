@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Hero from './components/Hero';
 import HeadlineCards from './components/HeadlineCards';
+import TravelLocations from './components/TravelLocations';
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
        <Navbar />
     <Hero />
     <HeadlineCards />
+    <TravelLocations />
 
     </div>
    
