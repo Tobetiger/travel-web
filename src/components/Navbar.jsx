@@ -16,14 +16,14 @@ const Navbar = () => {
 
   return (
     /* Navbar Section (left side) */
-    <div className='max-w-[1640px] mx-auto flex justify-between item-center p-4'
+    <div className=' max-w-[1640px] mx-auto flex justify-between item-center p-4'
     >
       {/* Left Menu Bar */}
       <div className='flex item-center'>
       <div onClick={()=> setNav(!nav)} className='cursor-pointer p-2'
       
       >
-      <AiOutlineMenu size={30} />
+      <AiOutlineMenu size={30} className='hover:scale-105' />
       </div>
     <h1 className='text-2xl sm:text-3xl lg:text-4xl px-2'>
       Travel<span className='font-bold'>Topia</span>
@@ -65,20 +65,20 @@ const Navbar = () => {
 
 <AiOutlineClose 
 onClick={()=> setNav(!nav)}
-size={25} className='absolute right-4 top-4 cursor-pointer duration-300'/>
+size={25} className='hover:scale-105 absolute right-4 top-4 cursor-pointer duration-300'/>
 
 <h2 className='text-2xl p-4'>
   Travel<span className='font-bold'>Topia</span>
 </h2>
 <nav>
   <ul className='flex flex-col p-4 text-gray-800'>
-  <li className='text-md py-4 flex'><GrVisa size={20} className='mr-4' />VISA Booking</li>
-  <li className='text-md py-4 flex'><LiaPassportSolid size={20} className='mr-4' /> Passport Booking</li>
-  <li className='text-md py-4 flex'><RiFlightTakeoffFill size={20} className='mr-4'/>Flight Bookings</li>
+  <li className='hover:bg-slate-100 text-md py-4 flex'><GrVisa size={20} className='mr-4' />VISA Booking</li>
+  <li className='hover:bg-slate-100 text-md py-4 flex'><LiaPassportSolid size={20} className='mr-4' /> Passport Booking</li>
+  <li className='hover:bg-slate-100 text-md py-4 flex'><RiFlightTakeoffFill size={20} className='mr-4'/>Flight Bookings</li>
   <hr />
-  <li className='text-md py-4 flex'><AiFillMessage size={20} className='mr-4' />  Contact Us</li>
-  <li className='text-md py-4 flex'><IoMdContact size={20} className='mr-4' />About Us</li>
-  <li className='text-md py-4 flex'><BiSolidHelpCircle size={20} className='mr-4' /> Faqs</li>
+  <li className='hover:bg-slate-100 text-md py-4 flex'><AiFillMessage size={20} className='mr-4' />  Contact Us</li>
+  <li className='hover:bg-slate-100 text-md py-4 flex'><IoMdContact size={20} className='mr-4' />About Us</li>
+  <li className='hover:bg-slate-100 text-md py-4 flex'><BiSolidHelpCircle size={20} className='mr-4' /> Faqs</li>
   </ul>
 </nav>
     </div>
