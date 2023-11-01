@@ -1,117 +1,119 @@
 export const data = [
   {
     id: 1,
-    name: 'Double Cheeseburger',
-    category: 'canada',
+    name: 'Travel VISA To CANADA',
+    category: 'visa',
     image:
-      'https://images.unsplash.com/photo-1607013251379-e6eecfffe234?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60',
+      'https://images.unsplash.com/photo-1565535941810-e9892acd7704?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     price: '$$$$',
   },
   {
     id: 2,
-    name: 'Bacon Cheeseburger',
-    category: 'usa',
+    name: 'Travel VISA To USA',
+    category: 'visa',
     image:
-      'https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJ1cmdlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60',
+      'https://images.unsplash.com/photo-1655722724447-2d2a3071e7f8?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     price: '$',
   },
   {
     id: 3,
-    name: 'Mushroom Burger',
-    category: 'dubai',
+    name: 'Travel VISA To DUBAI',
+    category: 'visa',
     image:
-      'https://images.unsplash.com/photo-1608767221051-2b9d18f35a2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1cmdlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60',
+      'https://images.unsplash.com/photo-1549944850-84e00be4203b?auto=format&fit=crop&q=80&w=1368&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     price: '$$',
   },
   {
     id: 4,
-    name: 'Loaded Burger',
-    category: 'burger',
+    name: 'Travel VISA To UK',
+    category: 'visa',
     image:
-      'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnVyZ2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60',
+      'https://images.unsplash.com/photo-1581656702382-9ae90e68e7b7?auto=format&fit=crop&q=80&w=1581&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     price: '$$$',
   },
   {
     id: 5,
-    name: 'Feta & Spinnach',
-    category: 'pizza',
+    name: 'Mauritus Passport Processing',
+    category: 'passport',
     image:
-      'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+      'https://images.unsplash.com/photo-1581553673739-c4906b5d0de8?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     price: '$$',
   },
   {
     id: 6,
-    name: 'Supreme Pizza',
-    category: 'pizza',
+    name: 'Nigerian International Passport',
+    category: 'passport',
     image:
-      'https://images.unsplash.com/photo-1604382355076-af4b0eb60143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+      'https://images.unsplash.com/photo-1554457606-ed16c39db884?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     price: '$$$',
   },
   {
     id: 7,
-    name: 'Meat Lovers',
-    category: 'pizza',
+    name: 'Flight Booking to DUBAI',
+    category: 'flights',
     image:
-      'https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
+      'https://images.unsplash.com/photo-1517400508447-f8dd518b86db?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     price: '$$$$',
   },
   {
     id: 8,
-    name: 'Cheese Pizza',
-    category: 'pizza',
+    name: 'Flight Booking to USA',
+    category: 'flights',
     image:
-      'https://images.unsplash.com/photo-1548369937-47519962c11a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2hlZXNlJTIwcGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+      'https://images.unsplash.com/photo-1522199873717-bc67b1a5e32b?auto=format&fit=crop&q=80&w=1472&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     price: '$',
   },
+  {
+    id: 9,
+    name: 'Flight Booking to CANADA',
+    category: 'flights',
+    image:
+      'https://images.unsplash.com/photo-1569632688286-c513803fa259?auto=format&fit=crop&q=80&w=1538&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    price: '$$',
+  },
+  {
+    id: 10,
+    name: 'Flight Booking to UK',
+    category: 'flights',
+    image:
+      'https://images.unsplash.com/photo-1584084807193-bed442df7a75?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    price: '$$$',
+  },
+  {
+    id: 11,
+    name: 'Flights to All Location In NIGERIA',
+    category: 'flights',
+    image:
+    'https://images.unsplash.com/photo-1556388158-158ea5ccacbd?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    price: '$$$$',
+  },
+
 ];
 
 export const categories = [
   {
     id: 1,
-    name: 'Fast Food',
+    name: 'Alex',
     image:
-      'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/FastFood_BrowseHome@3x.png',
+      'https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?auto=format&fit=crop&q=80&w=1476&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 2,
-    name: 'Pizza',
+    name: 'Juliet',
     image:
-      'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Pizza_BrowseHome@3x.png',
+      'https://images.unsplash.com/photo-1526380469674-be22ba33ffde?auto=format&fit=crop&q=80&w=1569&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 3,
-    name: 'Wings',
+    name: 'Christiana',
     image:
-      'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Wings_BrowseHome@3x.png',
+      'https://images.unsplash.com/photo-1617783341868-a4515ecac732?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 4,
-    name: 'Indian',
+    name: 'John',
     image:
-      'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Indian_BrowseHome@3x.png',
+      'https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
-  {
-    id: 5,
-    name: 'Latest Deals',
-    image:
-      'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Deals_BrowseHome@3x.png',
-  },
-  {
-    id: 6,
-    name: 'Restaurant Rewards',
-    image:
-      'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/RestoRewards_BrowseHome@3x.png',
-  },
-  {
-    id: 7,
-    name: 'Best Overall',
-    image:
-      'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/TopEats_Browse%20Home@3x.png',
-  },
-  {
-    id: 8,
-    name: 'Shipped Free',
-    image:
-      'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Placeholder_Plates@3x.png',
-  },
+
 ];

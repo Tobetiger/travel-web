@@ -41,7 +41,7 @@ const Navbar = () => {
       <AiOutlineSearch size={25} />
       </div>
       
-      <input className='bg-transparent p-2 focus:outline-none w-full'  type="text" placeholder='Search Travel Location'>
+      <input className='bg-transparent p-2 focus:outline-none w-full'  type="text" placeholder='Search Destination'>
       </input>
 
     </div>

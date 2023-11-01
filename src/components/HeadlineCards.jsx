@@ -13,7 +13,7 @@ const HeadlineCards = () => {
           <p className='pl-4 px-2 font-sherif'><span>CANADA, USA, UK and DUBAI</span></p>
           
           <div className='p-1 mr-4'>
-          <button className='hover:scale-95 bg-amber-500 hover:bg-amber-400 text-black mx-2 bottom-4 font-semibold' title="let's Help You Get Your VISA" >BOOK A CALL</button>
+          <button className='hover:scale-95 bg-gray-200 hover:bg-amber-400 text-black mx-2 bottom-4 font-semibold' title="let's Help You Get Your VISA" >BOOK A CALL</button>
           </div>
           </div>
           <div className='hover:scale-105 duration-300'>
@@ -28,7 +28,7 @@ const HeadlineCards = () => {
           <h1 className='pl-4 font-semibold text-2xl px-2 pt-2'>International <span className='font-semibold'>PASSPORT</span></h1>
           <p className='pl-4 px-2 font-sherif'><span>Nigeria, Mauritus</span></p>
           <div className='p-1 mr-4'>
-          <button className='hover:scale-95 bg-amber-500 hover:bg-amber-400 text-black mx-2 bottom-4 font-semibold' title="let's Help You Get Your PASSPORT" >BOOK A CALL</button>
+          <button className='hover:scale-95 bg-gray-100 hover:bg-amber-400 text-black mx-2 bottom-4 font-semibold' title="let's Help You Get Your PASSPORT" >BOOK A CALL</button>
           </div>
           </div>
           <div className=''>
@@ -40,11 +40,11 @@ const HeadlineCards = () => {
 <div className='rounded-xl bg-black/40 relative hover:scale-105 duration-300'>
         {/* Overlay */}
         <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
-          <h1 className='pl-4 font-semibold text-2xl px-2 pt-2'>Flights <span className='pl-4 font-semibold'>BOOKING</span></h1>
+          <h1 className='pl-4 font-semibold text-2xl px-2 pt-2'>Flight<span className=' pl-2 font-semibold'>BOOKING</span></h1>
           <p className='pl-4 px-2 font-sherif'>All States In NIGERIA, CANADA, USA,</p>
           <p className='pl-4 px-2 font-sherif'><span> UK AND DUBAI </span></p>
           <div className='p-1 mr-4'>
-          <button className='hover:scale-95 bg-amber-500 hover:bg-amber-400 mx-2 bottom-4 font-semibold text-black' title="let's Help You Book Your Flights">BOOK A CALL</button>
+          <button className='hover:scale-95 bg-gray-100 hover:bg-amber-400 mx-2 bottom-4 font-semibold text-black' title="let's Help You Book Your Flights">BOOK A CALL</button>
           </div>
           </div>
                     <img className='max-h-[160px] md:max-h-[1640px] w-full object-cover rounded- hover:touch-pinch-zoom'  src="https://images.pexels.com/photos/12717357/pexels-photo-12717357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="/" />
