@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
+import { Link } from 'react-scroll';
 import { AiFillMessage, AiOutlineClose, AiOutlineMenu, AiOutlineSearch } from 'react-icons/ai';
-import { MdOutlineFlightTakeoff } from 'react-icons/md';
+import { GrMail } from 'react-icons/gr';
 import { LiaPassportSolid } from 'react-icons/lia';
 import { GrVisa } from 'react-icons/gr';
 import { RiFlightTakeoffFill } from 'react-icons/ri';
@@ -10,13 +11,14 @@ import { IoMdContact } from 'react-icons/io';
 
 
 const Navbar = () => {
+  
 
   const [nav, setNav] = useState(false)
 
 
   return (
     /* Navbar Section (left side) */
-    <div className=' max-w-[1640px] mx-auto flex justify-between item-center p-4'
+    <div className='bg-red-100 max-w-[1640px] mx-auto flex justify-between item-center p-4'
     >
       {/* Left Menu Bar */}
       <div className='flex item-center'>
@@ -25,29 +27,25 @@ const Navbar = () => {
       >
       <AiOutlineMenu size={30} className='hover:scale-105' />
       </div>
-    <h1 className='text-2xl sm:text-3xl lg:text-4xl px-2'>
-      Travel<span className='font-bold'>Topia</span>
-    </h1>
-    <div className='hidden lg:flex item-center bg-gray-200 rounded-full p-1 text-[14px]'>
-      <p className='bg-gray-900 rounded-full p-2 text-white'>Home-Page</p> 
-      <p className='p-2 '>Affiliate</p>
-    </div>
+    <h1 className='text-2xl sm:text-3xl lg:text-2xl px-2 pt-1'>
+    Trans<span className='font-bold text-red-600 border-black'>Emerald</span>Travels</h1>
 
       </div>
 
+   
     {/*Navbar Section (search Input)*/}
-    <div className='bg-gray-200 rounded-full flex item-center px-1 w-[200px] sm:w-[400px] lg:w-[500px] '>
+   {/* <div className='bg-gray-200 rounded-full md:flex item-center px-1 w-[200px] sm:w-[300px] lg:w-[500px] hidden'>
       <div className='p-3'>
-      <AiOutlineSearch size={25} />
+      <AiOutlineSearch size={20} />
       </div>
       
-      <input className='bg-transparent p-2 focus:outline-none w-full'  type="text" placeholder='Search Destination'>
+      <input className='bg-transparent p-2 focus:outline-none w-200'  type="text" placeholder='Search Destination'>
       </input>
 
-    </div>
+    </div> */}
     <div>
-    <button className='bg-black hover:bg-gray-800 border-red-600 text-white rounded-full hidden md:flex items-center py-2'> 
-       <MdOutlineFlightTakeoff size={20} className='mr-2'/>  Bookings
+    <button className='bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-200 dark:focus:ring-red-700 shadow-lg shadow-red-400/50 dark:shadow-lg dark:shadow-red-700/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 hidden md:flex items-center'> 
+       <GrMail size={20} className='mr-2'/>  CONTACT US
       </button>
 
     
@@ -55,7 +53,7 @@ const Navbar = () => {
 
     {/* Mobile Menu */}
     {/* Overlay for menu */}
-   {nav ? <div className='bg-black/80 fixed w-full h-screen z-10 top-0 left-0'></div> : '' }
+   {nav ? <div className='bg-black/80 fixed w-full h-screen z-10 top-0 left-0' onClick={()=> setNav(!nav)} ></div> : '' }
   </div>
   
   { /* Side drawer for menu */ }
@@ -65,20 +63,20 @@ const Navbar = () => {
 
 <AiOutlineClose 
 onClick={()=> setNav(!nav)}
-size={25} className='hover:scale-105 absolute right-4 top-4 cursor-pointer duration-300'/>
+size={25} className='hover:scale-105 hover:border-gray-300 hover:border-rounded absolute right-4 top-4 cursor-pointer duration-300'/>
 
 <h2 className='text-2xl p-4'>
-  Travel<span className='font-bold'>Topia</span>
+  Trans-<span className='font-bold text-red-500'>Emerald</span>
 </h2>
 <nav>
   <ul className='flex flex-col p-4 text-gray-800'>
-  <li className='hover:bg-slate-100 text-md py-4 flex'><GrVisa size={20} className='mr-4' />VISA Booking</li>
-  <li className='hover:bg-slate-100 text-md py-4 flex'><LiaPassportSolid size={20} className='mr-4' /> Passport Booking</li>
-  <li className='hover:bg-slate-100 text-md py-4 flex'><RiFlightTakeoffFill size={20} className='mr-4'/>Flight Bookings</li>
+  <li className='hover:bg-red-100 text-md px-4 py-4 flex'><GrVisa size={20} className='mr-4' /> Travel VISA</li>
+  <li className='hover:bg-red-100 text-md px-4 py-4 flex'><LiaPassportSolid size={20} className='mr-4' /> Passport</li>
+  <li className='hover:bg-red-100 text-md px-4 py-4 flex'><RiFlightTakeoffFill size={20} className='mr-4'/> Flight Bookings</li>
   <hr />
-  <li className='hover:bg-slate-100 text-md py-4 flex'><AiFillMessage size={20} className='mr-4' />  Contact Us</li>
-  <li className='hover:bg-slate-100 text-md py-4 flex'><IoMdContact size={20} className='mr-4' />About Us</li>
-  <li className='hover:bg-slate-100 text-md py-4 flex'><BiSolidHelpCircle size={20} className='mr-4' /> Faqs</li>
+  <li className='hover:bg-red-100 text-md px-4 py-4 flex'><AiFillMessage size={20} className='mr-4' />  Contact Us</li>
+  <li className='hover:bg-red-100 text-md px-4 py-4 flex'><IoMdContact size={20} className='mr-4' />About Us</li>
+  <li className='hover:bg-red-100 text-md px-4 py-4 flex'><BiSolidHelpCircle size={20} className='mr-4' /> Faqs</li>
   </ul>
 </nav>
     </div>

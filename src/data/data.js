@@ -93,25 +93,25 @@ export const data = [
 export const categories = [
   {
     id: 1,
-    name: 'Alex',
+    name: 'Alex:',
     image:
       'https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?auto=format&fit=crop&q=80&w=1476&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 2,
-    name: 'Juliet',
+    name: 'Juliet:',
     image:
       'https://images.unsplash.com/photo-1526380469674-be22ba33ffde?auto=format&fit=crop&q=80&w=1569&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 3,
-    name: 'Christiana',
+    name: 'Christiana:',
     image:
       'https://images.unsplash.com/photo-1617783341868-a4515ecac732?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 4,
-    name: 'John',
+    name: 'John:',
     image:
       'https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
