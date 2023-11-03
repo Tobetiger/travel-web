@@ -13,7 +13,7 @@ import { IoMdContact } from 'react-icons/io';
 const Navbar = () => {
   
 const openExternalLink = () =>{
-const externalLink = 'https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new';
+const externalLink = 'https://wa.link/v77fnw';
 window.open(externalLink, '_blank');
 }
   const [nav, setNav] = useState(false)
@@ -30,7 +30,7 @@ window.open(externalLink, '_blank');
       >
       <AiOutlineMenu id='navIcon' size={30} className='hover:scale-105' />
       </div>
-      <Link to="navIcon">
+      <Link>
     <h1 className='text-2xl sm:text-3xl lg:text-2xl px-2 pt-1'>
     Trans<span className='font-bold text-red-600 border-black'>Emerald</span>Travels</h1>
 </Link>
@@ -74,14 +74,20 @@ size={25} className='hover:scale-105 hover:border-gray-300 hover:border-rounded 
 <nav>
 
   <ul className='flex flex-col p-4 text-gray-800'>
-  <Link to="testimonials" onClick={()=> setNav(!nav)} >
+  <Link to="travelservices" smooth={true} duration={500} offset={-100} onClick={()=> setNav(!nav)} >
   <li className='hover:bg-red-100 text-md px-4 py-4 flex'><GrVisa size={20} className='mr-4' /> Travel VISA</li>
   <li className='hover:bg-red-100 text-md px-4 py-4 flex'><LiaPassportSolid size={20} className='mr-4' /> Passport</li>
   <li className='hover:bg-red-100 text-md px-4 py-4 flex'><RiFlightTakeoffFill size={20} className='mr-4'/> Flight Bookings</li>
+  </Link>
+  <div>
+
   <hr />
+  <Link onClick={openExternalLink} >
   <li className='hover:bg-red-100 text-md px-4 py-4 flex'><AiFillMessage size={20} className='mr-4' />  Contact Us</li>
   <li className='hover:bg-red-100 text-md px-4 py-4 flex'><IoMdContact size={20} className='mr-4' />About Us</li>
   </Link>
+  </div>
+  
 
   </ul>
 </nav>

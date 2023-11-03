@@ -24,7 +24,7 @@ const HeadlineCards = () => {
 {/* Box */}
 <div className='rounded-2xl bg-black/40 relative hover:scale-105 duration-300 shadow-lg hover:shadow-red-400'>
         {/* Overlay */}
-        <div className=' absolute w-full h-full bg-black/50 rounded-xl text-white'>
+        <div className=' absolute w-full h-full bg-black/50 rounded text-white'>
           <h1 className='pl-4 font-semibold text-2xl px-2 pt-2'>International <span className='font-semibold'>PASSPORT</span></h1>
           <p className='pl-4 px-2 font-sherif'><span>Nigeria, Mauritus</span></p>
           <div className='p-1 mr-4'>
