@@ -9,14 +9,14 @@ const ContactForm = () => {
       <h1 className='text-4xl font-bold p-4 text-white'>CONTACT US:</h1>
       </div>
       <div className='flex justify-center items-center'>
-      <p>Lets Help Make Your Travels Peaceful</p>
+      <p className='items-center text-white font-semibold'>Lets Help Make Your Travels Peaceful</p>
       </div>
-      <div>
-      <form  className='container p-4'>
+      <div className='container p-4 justify-center flex items-center'>
+      <form  className='container p-4 justify-center flex items-center'>
         <div>
           
         </div>
-        <div className=''>
+        <div className='items-center justify-center text-white font-semibold'>
               <input className='bg-gray-400 item-center border-black' type="text" placeholder="Name" />
         </div>
         <div>

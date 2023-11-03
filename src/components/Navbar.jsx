@@ -18,7 +18,8 @@ const Navbar = () => {
 
   return (
     /* Navbar Section (left side) */
-    <div className='bg-red-100 max-w-[1640px] mx-auto flex justify-between item-center p-4'
+
+    <div className='bg-red-100 max-w-[1640px] mx-auto flex justify-between item-center p-4 top-0 sticky z-50'
     >
       {/* Left Menu Bar */}
       <div className='flex item-center'>

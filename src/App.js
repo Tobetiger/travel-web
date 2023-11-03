@@ -9,7 +9,6 @@ import ContactForm from './components/ContactForm';
 function App() {
   return (
     <div>
-      
 <Navbar/>
     <Hero />
     <HeadlineCards />
