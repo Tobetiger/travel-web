@@ -9,6 +9,14 @@ export const data = [
   },
   {
     id: 2,
+    name: 'Travel VISA To CHINA',
+    category: 'visa',
+    image:
+      'https://images.unsplash.com/photo-1565535941810-e9892acd7704?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    price: '$$$$',
+  },
+  {
+    id: 3,
     name: 'Travel VISA To USA',
     category: 'visa',
     image:
@@ -16,7 +24,7 @@ export const data = [
     price: '$',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Travel VISA To DUBAI',
     category: 'visa',
     image:
@@ -24,7 +32,7 @@ export const data = [
     price: '$$',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Travel VISA To UK',
     category: 'visa',
     image:
@@ -32,7 +40,7 @@ export const data = [
     price: '$$$',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Mauritus Passport Processing',
     category: 'passport',
     image:
@@ -40,7 +48,7 @@ export const data = [
     price: '$$',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Nigerian International Passport',
     category: 'passport',
     image:
@@ -48,7 +56,7 @@ export const data = [
     price: '$$$',
   },
   {
-    id: 7,
+    id: 8,
     name: 'Flight Booking to DUBAI',
     category: 'flights',
     image:
@@ -56,7 +64,7 @@ export const data = [
     price: '$$$$',
   },
   {
-    id: 8,
+    id: 9,
     name: 'Flight Booking to USA',
     category: 'flights',
     image:
@@ -64,7 +72,7 @@ export const data = [
     price: '$',
   },
   {
-    id: 9,
+    id: 10,
     name: 'Flight Booking to CANADA',
     category: 'flights',
     image:
@@ -72,7 +80,7 @@ export const data = [
     price: '$$',
   },
   {
-    id: 10,
+    id: 11,
     name: 'Flight Booking to UK',
     category: 'flights',
     image:
@@ -80,13 +88,14 @@ export const data = [
     price: '$$$',
   },
   {
-    id: 11,
+    id: 12,
     name: 'Flights to All Location In NIGERIA',
     category: 'flights',
     image:
     'https://images.unsplash.com/photo-1556388158-158ea5ccacbd?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     price: '$$$$',
   },
+
 
 ];
 

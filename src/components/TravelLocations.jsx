@@ -1,11 +1,16 @@
 import React, { useState } from 'react'
 import { categories, data } from '../data/data.js';
+import { Link } from 'react-scroll'
 
 const TravelLocations = () => {
 
 const [countries, setCountries] = useState(data)
 const [testimonials] = useState(categories)
 
+const openExternalLink = () =>{
+  const externalLink = 'https://wa.link/v77fnw';
+  window.open(externalLink, '_blank');
+  }
 
 const filterType = (category) => {
   setCountries(
@@ -32,9 +37,10 @@ return item.category === category;
 </div>
 
 {/* Display Couuntries */}
+<Link  >
 <div className='grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4 p-3'>
 {countries.map((item, index)=> (
-  <div key={index} className='border shadow-lg hover:scale-105  hover:shadow-red-300 duration-300 '>
+  <div key={index} className='border shadow-lg hover:scale-105  hover:shadow-red-300 duration-500' onClick={openExternalLink}>
     <img src={item.image} alt={item.name}
     className='w-full h-[200px] object-cover rounded-t-lg'
     />
@@ -46,11 +52,11 @@ return item.category === category;
   </div>
 ))}
 </div>
-
+</Link>
 
 {/* Display Testimonials */}
 <div>
-  <div className='p-4 px-4 py-4 justify-between text-center'>
+  <div className='p-4 px-4 py-4 justify-between text-center pb-4'>
     
   <h1 id="testimonials" className='text-4xl text-center font-bold pt-4'>TESTIMONIALS</h1>
   <p className='font-bold px-2 py-2 justify-between'>Quick Words  From Our Clients</p>

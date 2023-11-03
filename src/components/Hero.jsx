@@ -1,6 +1,12 @@
 import React from 'react'
 
 const Hero = () => {
+  const openExternalLink = () =>{
+    const externalLink = 'https://wa.link/v77fnw';
+    window.open(externalLink, '_blank');
+    }
+  
+
   return (
     <div id="hero" className='max-w-[1640px] mx-auto p-1'>
       
@@ -12,7 +18,7 @@ const Hero = () => {
   <h1 className='px-4 text-4xl sm:5xl md:6xl lg:7xl font-bold text-red-500'>Travel <span className='text-gray-100'>Assistant</span></h1>
   <h4 className='px-4 text-1xl sm:2xl md:3xl lg:4xl font-semibold'><span>VISA, PASSPORT, FLIGHT TICKETS...</span></h4>
   <div className='p-4'>
-  <button className='bg-transparent border-red-500 hover:shadow-black hover:bg-red-500 mx-2 bottom-4 font-semibold hidden md:flex text-white hover:scale-95' title="let's Help You Get Your VISA" >BOOK A CALL</button>
+  <button className='bg-transparent border-red-600 shadow-lg shadow-gray-700 hover:shadow-black hover:bg-red-500 mx-2 bottom-4 font-semibold hidden md:flex text-white hover:scale-95' title="let's Help You Get Your VISA" onClick={openExternalLink}>BOOK A CALL</button>
   </div>
  
 </div>
