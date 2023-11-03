@@ -24,10 +24,10 @@ return item.category === category;
       <div className='max-w-[1640px] m-auto px-2'>
 <p className='px-2 pt-2 font-semibold'>Filter Type:</p>
 <div className='px-2 pt-2 justify-between flex-wrap'>
-<button onClick={()=> setCountries(data)} className='m-1 border-red-600 text-black hover:bg-red-300 hover:border-red-400'>All</button>
-<button onClick={()=> filterType('visa')} className='m-1 border-red-600 text-black hover:bg-red-300'> Travel VISA </button>
-<button onClick={()=> filterType('passport')} className='m-1 border-red-600 text-black hover:bg-red-300'> Travel Passport </button>
-<button onClick={()=> filterType('flights')} className='m-1 border-red-600 text-black hover:bg-red-300'> Flight Booking </button>
+<button onClick={()=> setCountries(data)} className='m-1 focus:bg-red-200 border-red-600 text-black hover:bg-red-300 hover:border-red-400'>All</button>
+<button onClick={()=> filterType('visa')} className='m-1 focus:bg-red-200 border-red-600 text-black hover:bg-red-300'> Travel VISA </button>
+<button onClick={()=> filterType('passport')} className='m-1 focus:bg-red-200 border-red-600 text-black hover:bg-red-300'> Travel Passport </button>
+<button onClick={()=> filterType('flights')} className='m-1 focus:bg-red-200 border-red-600 text-black hover:bg-red-300'> Flight Booking </button>
 </div>      
 </div>
 
@@ -51,7 +51,7 @@ return item.category === category;
 {/* Display Testimonials */}
 <div>
   <div className='p-4 px-4 py-4 justify-between text-center'>
-    <hr />
+    
   <h1 id="testimonials" className='text-4xl text-center font-bold pt-4'>TESTIMONIALS</h1>
   <p className='font-bold px-2 py-2 justify-between'>Quick Words  From Our Clients</p>
   </div>
