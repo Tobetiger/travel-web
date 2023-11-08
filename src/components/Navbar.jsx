@@ -30,7 +30,7 @@ window.open(externalLink, '_blank');
       >
       <AiOutlineMenu id='navIcon' size={30} className='hover:scale-105' />
       </div>
-      <Link href='/'>
+      <Link to="/">
     <h1 className='text-2xl sm:text-3xl lg:text-2xl px-2 pt-1'>
     Trans<span className='font-bold text-red-600 border-black'>Emerald</span>Travels</h1>
 </Link>
