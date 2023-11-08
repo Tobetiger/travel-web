@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   const openExternalLink = () =>{
-    const externalLink = 'https://wa.link/v77fnw';
+    const externalLink = 'https://wa.link/a4bv4a';
     window.open(externalLink, '_blank');
     }
   

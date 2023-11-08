@@ -13,7 +13,7 @@ import { IoMdContact } from 'react-icons/io';
 const Navbar = () => {
   
 const openExternalLink = () =>{
-const externalLink = 'https://wa.link/v77fnw';
+const externalLink = 'https://wa.link/a4bv4a';
 window.open(externalLink, '_blank');
 }
   const [nav, setNav] = useState(false)
@@ -30,7 +30,7 @@ window.open(externalLink, '_blank');
       >
       <AiOutlineMenu id='navIcon' size={30} className='hover:scale-105' />
       </div>
-      <Link>
+      <Link href='/'>
     <h1 className='text-2xl sm:text-3xl lg:text-2xl px-2 pt-1'>
     Trans<span className='font-bold text-red-600 border-black'>Emerald</span>Travels</h1>
 </Link>

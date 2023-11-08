@@ -8,7 +8,7 @@ const [countries, setCountries] = useState(data)
 const [testimonials] = useState(categories)
 
 const openExternalLink = () =>{
-  const externalLink = 'https://wa.link/v77fnw';
+  const externalLink = 'https://wa.link/a4bv4a';
   window.open(externalLink, '_blank');
   }
 
@@ -32,7 +32,7 @@ return item.category === category;
 <button onClick={()=> setCountries(data)} className='m-1 focus:bg-red-200 border-red-600 text-black hover:bg-red-300 hover:border-red-400'>All</button>
 <button onClick={()=> filterType('visa')} className='m-1 focus:bg-red-200 border-red-600 text-black hover:bg-red-300'> Travel VISA </button>
 <button onClick={()=> filterType('passport')} className='m-1 focus:bg-red-200 border-red-600 text-black hover:bg-red-300'> Travel Passport </button>
-<button onClick={()=> filterType('flights')} className='m-1 focus:bg-red-200 border-red-600 text-black hover:bg-red-300'> Flight Booking </button>
+<button onClick={()=> filterType('flights')} className='m-1  focus:bg-red-200 border-red-600 text-black hover:bg-red-300'> Flight Booking </button>
 </div>      
 </div>
 

@@ -3,7 +3,7 @@ import React from 'react'
 
 const ContactForm = () => {
   return (
-    <div id="contact" className='p-4 pt-1 justify-center bg-black pb-40'>
+    <div id="contact" className='p-4 pt-1 justify-center bg-black pb-20'>
      
       <div className='flex justify-center items-center'>
       <h1 className='text-2xl underline gap-4 font-bold p-4 text-white pt-8 pb-8'>Contact Trans Emerald Travels:</h1>
